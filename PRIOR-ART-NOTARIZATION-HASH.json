@@ -1,0 +1,28 @@
+{
+  "notarization_title": "A2AClear Sovereign Protocol Cryptographic Prior Art Manifest (Armored)",
+  "author_inventor": "Rohit",
+  "organization": "Unnat AI Solutions",
+  "headquarters": "Kurukshetra, Haryana, 136118, Bharat",
+  "timestamp_epoch": 1793877369,
+  "timestamp_iso": "2026-11-05T11:16:09Z",
+  "license": "Business Source License 1.1 (BSL 1.1)",
+  "patent_status": "Provisional Specification Prepared (Indian Patent Act 1970 Form 2)",
+  "trademark_status": "Trademark Form TM-A Registered Classes 9, 36, 42",
+  "cybersecurity_armor": "AES-256-GCM + Replay Defense + Steganographic Watermark",
+  "file_hashes_sha256": {
+    "RFC-0001-A2ACLEAR-SPECIFICATION.md": "62abeacd8405e28e1fa85138493a54540353000f6fb61d7797591e1b911ec341",
+    "PATENT-SPECIFICATION-A2ACLEAR-PROVISIONAL.md": "e537d99edd8deba84e6cb9513ff7020e957c0d41d0bc18d198bff332c62b702b",
+    "TRADEMARK-APPLICATION-A2ACLEAR.md": "f74effe0aa9bcb9eebdfe82d468d49415187d816977c16be1c3b578c799f538b",
+    "LICENSE.md": "98b20b73b0eea5f1dad38d5270827379e06a58b664fab780a8303d84739a7ca4",
+    "python/a2aclear/identity.py": "e6c72cbc6722f48b6eb47bd16bfe25d85bc7df7f0de3bfd101aff4ce7cf0c989",
+    "python/a2aclear/contract.py": "b6085f613cc30931ccf40cd4c77cf20ac079480b90a39dfcacfad922397db825",
+    "python/a2aclear/escrow.py": "57396b13a9e32304d9a46d2d84be37e142fe91ff2005c332cf161b0122d9e505",
+    "python/a2aclear/negotiator.py": "1bf05a798f67fadb48aa77c1d6945b8a9bd43a5c35129f6017a174ea69eced29",
+    "python/a2aclear/reputation.py": "c52ccf68e5197518fe3ebf4f05d1142c7e1b7eb5f3531dcb7896c4a432e908b8",
+    "python/a2aclear/fiat_bridge.py": "3a6096f03fc7273953c8ea1e0b827ec97719614075d6cadb00a5042a967faacd",
+    "python/a2aclear/security.py": "98a14025841130460718c632a05b04e0656c1152dce244117378953f58920644",
+    "python/a2aclear/integrations/langchain.py": "b39a97c770340178cbe5a176cb6698795eaab7ce9a0f76b02d089f519f33241e",
+    "python/a2aclear/integrations/crewai.py": "79cd7505d2104804eb3bf52f0891a16ccb3f083d0196a7fd8ef0653da2acc40d",
+    "typescript/src/identity.ts": "65b322880a18d8dcea7a935b098b0a05aaffadd474f511e65859ddf3de4705e8"
+  }
+}

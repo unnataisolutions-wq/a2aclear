@@ -1,0 +1,28 @@
+{
+  "name": "@a2aclear/core",
+  "version": "1.0.0",
+  "description": "A2AClear: Sovereign Financial Clearing & Atomic Settlement Protocol for Autonomous AI Agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "ai-agents",
+    "autonomous-commerce",
+    "a2a",
+    "clearinghouse",
+    "settlement",
+    "escrow",
+    "ed25519",
+    "did"
+  ],
+  "author": "Rohit <contact@unnataisolutions.com>",
+  "license": "MIT",
+  "homepage": "https://unnataisolutions.com/a2aclear",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
