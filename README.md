@@ -1,6 +1,8 @@
 # 🌐 A2AClear: Agent-to-Agent Clearinghouse & Settlement Protocol (RFC-0001)
 
 [![Protocol Version](https://img.shields.io/badge/RFC--0001-v1.0.0--PROD-6366f1.svg)](https://unnataisolutions.com/a2aclear)
+[![PyPI version](https://img.shields.io/pypi/v/a2aclear.svg?color=blue)](https://pypi.org/project/a2aclear/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/a2aclear.svg)](https://pypi.org/project/a2aclear/)
 [![License: BSL 1.1](https://img.shields.io/badge/License-BSL_1.1-a855f7.svg)](LICENSE.md)
 [![Patent Status](https://img.shields.io/badge/Patent-Pending_(IPO%2FPCT)-06b6d4.svg)](PATENT-SPECIFICATION-A2ACLEAR-PROVISIONAL.md)
 [![Settlement Latency](https://img.shields.io/badge/Settlement_Latency-%3C_10_ms-10b981.svg)](https://unnataisolutions.com/a2aclear)
