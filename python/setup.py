@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+import os
 
 setup(
     name="a2aclear",
@@ -6,7 +7,7 @@ setup(
     author="Rohit",
     author_email="contact@unnataisolutions.com",
     description="A2AClear: Sovereign Financial Clearinghouse & Atomic Settlement Protocol for Autonomous AI Agents",
-    long_description=open("../RFC-0001-A2ACLEAR-SPECIFICATION.md").read(),
+    long_description=open("README.md").read() if os.path.exists("README.md") else "A2AClear Sovereign Protocol",
     long_description_content_type="text/markdown",
     url="https://unnataisolutions.com/a2aclear",
     packages=find_packages(),
@@ -21,4 +22,9 @@ setup(
     install_requires=[
         "cryptography>=41.0.0",
     ],
+    entry_points={
+        "console_scripts": [
+            "a2a=a2aclear.cli:main",
+        ],
+    },
 )
