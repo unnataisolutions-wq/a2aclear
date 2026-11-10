@@ -155,6 +155,19 @@ console.log('Settled in <10ms! Hash:', receipt.settlementHash);
 
 ---
 
+
+---
+
+## 🛡️ Embed Settlement Badge in Your Agent Repository
+
+Signal to developers, researchers, and enterprises that your autonomous agent or framework natively supports bilateral micro-clearing via RFC-0001:
+
+
+
+Preview:  
+[![Cleared by A2AClear](https://img.shields.io/badge/Cleared_by-A2AClear_RFC--0001-6366f1.svg)](https://unnataisolutions.com/a2aclear)
+
+
 ## 🔒 Cybersecurity & Anti-Theft Armor
 
 A2AClear implements 4 sovereign defense layers:
