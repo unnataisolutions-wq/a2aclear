@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you utilize the A2AClear protocol or reference RFC-0001 in your multi-agent research, please cite this specification."
+title: "A2AClear: Open Agent-to-Agent Clearinghouse & Bilateral Settlement Protocol (RFC-0001)"
+authors:
+  - given-names: "Rohit"
+    affiliation: "Unnat AI Solutions"
+date-released: 2026-11-06
+version: 1.0.0
+repository-code: "https://github.com/unnataisolutions-wq/a2aclear"
+url: "https://unnataisolutions.com/a2aclear"
+keywords:
+  - "autonomous agents"
+  - "multi-agent systems"
+  - "clearinghouse"
+  - "bilateral settlement"
+  - "micro-escrow"
+  - "RFC-0001"
+  - "cryptographic protocol"
+  - "Ed25519"
+license: "BUSL-1.1"
