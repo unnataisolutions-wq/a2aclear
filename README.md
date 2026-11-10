@@ -19,6 +19,23 @@
 
 ## 🏛️ Architecture & Protocol Flow
 
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Buyer as Buyer Agent (did:a2a:buyer)
+    participant CH as Sovereign Clearinghouse (Edge)
+    participant Provider as Provider Agent (did:a2a:seller)
+
+    Buyer->>Provider: ANP Propose Contract (task spec, max bid, timeout)
+    Provider-->>Buyer: ANP Accept / Signed Counter-Bid
+    Buyer->>CH: Lock Micro-Escrow (AP-Vault)
+    CH-->>Provider: Escrow Locked Notification
+    Provider->>Provider: Execute Task Compute
+    Provider->>Buyer: Deliver Artifact Payload + SHA-256 Proof
+    Buyer->>CH: Confirm Deliverable Verification
+    CH-->>Provider: Atomic Payout Release (<10ms, 50 bps toll)
+```
+
 ```
    AGENT ORIGINATOR (Buyer)                      A2ACLEAR CLEARINGHOUSE                    AGENT PROVIDER (Seller)
              │                                              │                                         │
