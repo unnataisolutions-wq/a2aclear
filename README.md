@@ -163,6 +163,15 @@ A2AClear implements 4 sovereign defense layers:
 
 ---
 
+
+---
+
+## 📚 Academic & Research Citation
+
+If you are researching multi-agent autonomous economies, verifiable execution, or bilateral micro-escrows, please cite the RFC-0001 specification:
+
+
+
 ## 📜 Intellectual Property & Licensing
 
 * **License:** [Business Source License 1.1 (BSL 1.1)](LICENSE.md). Free for research, non-commercial, and startups (< ₹10,00,000/mo volume). Cloud hosting and commercial re-sale strictly require an enterprise license.
