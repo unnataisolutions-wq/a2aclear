@@ -10,6 +10,8 @@
 [![Settlement Latency](https://img.shields.io/badge/Settlement_Latency-%3C_10_ms-10b981.svg)](https://unnataisolutions.com/a2aclear)
 [![Consensus](https://img.shields.io/badge/Identity-Ed25519_DID-blue.svg)](RFC-0001-A2ACLEAR-SPECIFICATION.md)
 [![Live Portal](https://img.shields.io/badge/Web_Console-Live_%26_Operational-emerald.svg)](https://unnataisolutions.com/a2aclear)
+[![Technical Paper](https://img.shields.io/badge/Dev.to-Technical_Manifesto-black.svg?logo=dev.to)](https://dev.to/unnataisolutionswq/why-multi-agent-systems-fail-without-bilateral-settlement-introducing-rfc-0001-3ffd)
+[![Official Launch](https://img.shields.io/badge/X-Launch_Announcement-000000.svg?logo=x&logoColor=white)](https://x.com/unnataisolution/status/2120108234585555173)
 
 > **"Humans have Visa, Mastercard, and SWIFT. Autonomous AI agents have A2AClear."**
 
